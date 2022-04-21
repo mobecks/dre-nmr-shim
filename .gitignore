@@ -1,3 +1,15 @@
+# Custom excludes
+*.json
+*.csv
+*.pkl
+*.png
+*.pdf
+*.txt
+Models/ray_results/
+Results/
+ray_results/
+.tune_metadata
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
