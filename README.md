@@ -6,14 +6,14 @@ This is the official project page including the [paper](https://doi.org/10.1016/
 
 Shimming in the context of nuclear magnetic resonance aims to achieve a uniform magnetic field distribution, as perfect as possible, and is crucial for useful spectroscopy and imaging. Currently, shimming precedes most acquisition procedures in the laboratory, and this mostly semi-automatic procedure often needs to be repeated, which can be cumbersome and time-consuming. The paper investigates the feasibility of completely automating and accelerating the shimming procedure by applying deep learning (DL). We show that DL can relate measured spectral shape to shim current specifications and thus rapidly predict three shim currents simultaneously, given only four input spectra. Due to the lack of accessible data for developing shimming algorithms, we also introduce a database that served as our DL training set, and allows inference of changes to 1H NMR signals depending on shim offsets. In situ experiments of deep regression with ensembles demonstrate a high success rate in spectral quality improvement for random shim distortions over different neural architectures and chemical substances. This paper presents a proof-of-concept that machine learning can simplify and accelerate the shimming problem, either as a stand-alone method, or in combination with traditional shimming methods. Our database and code are publicly available.
 
-### Paper
+## Paper
 
 Paper published at Journal of Magnetic Resonance: [https://doi.org/10.1016/j.jmr.2022.107151](https://doi.org/10.1016/j.jmr.2022.107151).
 
 M.Becker, M.Jouda, A.Kolchinskaya, J.G.Korvink, Deep regression with ensembles enables fast, first-order shimming in low-field NMR, Journal of Magnetic Resonance 2022, 107151, ISSN 1090-7807, https://doi.org/10.1016/j.jmr.2022.107151. (https://www.sciencedirect.com/science/article/pii/S109078072200009X)
 
 
-### ShimDB 
+## ShimDB 
 
 For more information and downloading of ShimDB, see [this page](https://github.com/mobecks/ShimDB).
 
